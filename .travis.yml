@@ -1,8 +1,15 @@
 language: node_js
+sudo: false
 node_js:
-  - "iojs"
-  - "7"
-before_install:
-  - npm i -g npm
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+  cache:
+directories:
+  - "node_modules"
+install:
+  - cd reach && npm install && cd ..
 script:
-  - npm run test
+  - cd reach && npm test
