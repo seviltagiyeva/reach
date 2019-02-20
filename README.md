@@ -12,7 +12,7 @@ npm i reach
 ## Usage
 
 ```bash
-const reach = require('reach');
+const reach = require('reach-client');
 
 reach(url, options)
   .then(response => console.log(response.getBody()))
