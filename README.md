@@ -40,7 +40,7 @@ reach(
       fields: { name: 'firstname', surname: 'lastname' },
       file: './src/file.txt',
     },
-  }).then((result) => {
+  }).then((response) => {
     console.log(response.getBody())
   })
   .catch((err) => console.log(err.code));
@@ -51,7 +51,7 @@ reach(
     method: 'PUT',
     headers: {},
     body: 'a=7&b=8'
-  }).then((result) => {
+  }).then((response) => {
     console.log(response.statusText)
   })
   .catch((err) => console.log(err.code));
@@ -62,7 +62,7 @@ reach(
   {
     method: 'GET',
     headers: {},
-  }).then((result) => {
+  }).then((response) => {
     console.log(response.code)
   })
   .catch((err) => console.log(err.code));
