@@ -6,7 +6,7 @@ HTTP Client based on node's net package sockets.
 
 ## Installation
 ```bash
-npm i reach
+npm i reach-client
 ```
 
 ## Usage
