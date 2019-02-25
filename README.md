@@ -76,6 +76,6 @@ Options | Type |Values |
 *code* | number | HTTP response code 
 *statusText*| string | HTTP response status
 *getBody*| object | HTTP response body
-*getHeadersy*| object | HTTP response body
+*getHeaders*| object | HTTP response body
 
 
